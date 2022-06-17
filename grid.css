@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 50px 50px;
+    height: 90vh;
+    min-width: 90vh;
+   
+    display: grid;
+    background-color:#13274F ;
+    gap: 10px;
+    grid-template-areas:
+    "a a b"
+    "c d d"
+    "c e e";
+    grid-template-columns: 240px 100px 210px ;
+    grid-template-rows: 200px 90px 110px;
+}
+
+.orange{
+    background-color: orangered;
+    grid-area: a;
+
+}
+
+
+.yellow{
+    background-color: orange;
+    grid-area: b;
+}
+
+.green{
+    background-color: #03c03c;
+    grid-area: c;
+}
+
+.blue1{
+    background-color: #00bfff;
+   grid-area: d;
+   
+
+}
+
+.blue2{
+    background-color: #00bfff;
+    grid-area: e;
+}
